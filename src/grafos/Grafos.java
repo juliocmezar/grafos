@@ -10,7 +10,7 @@ public class Grafos {
 
     public static void main(String[] args) {
         // Crear un grafo dirigido y ponderado (con distancias)
-        // recibe por parametro el tipo de datos que será el nombre de los vértices y el tipo de aristas, en este caso: dirigido (une vértices) y poderado (tiene peso, en este caso las distancias)
+        // recibe por parametro el tipo de dato que tendrán los vértices y el tipo de aristas, en este caso: dirigido (une vértices) y poderado (tiene peso, en este caso las distancias)
         // en constructor se pasa la clase arista para que el grafo se instancia internamente
         Graph<String, DefaultWeightedEdge> grafo = new SimpleDirectedWeightedGraph<>(DefaultWeightedEdge.class);
 
