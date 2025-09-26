@@ -37,7 +37,7 @@ public class Grafos {
         // Mostrar vértices
         System.out.println("Vértices: " + grafo.vertexSet());
 
-        // Mostrar aristas con distancias
+        // Mostrar aristas con distancias, evalúo cada vértice
         System.out.println("\nDistancias entre ciudades:");
         for (DefaultWeightedEdge e : grafo.edgeSet()) {
             String origen = grafo.getEdgeSource(e);
